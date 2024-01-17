@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save> To create new ring GameObjects, simply copy and paste any of the 4 rings below, Generate new handles and UUID and rename. Then perform a similar process in the Armor.txt, and copy UUID and name from here to there.
+	<version major="4" minor="0" revision="6" build="5" /> Lastly, you need to copy both handles to the Localization xml file and write the item's name and description.
+	<region id="Templates">
+		<node id="Templates">
+			<children> 
+				<node id="GameObjects"> Priest ring
+					<attribute id="Description" type="TranslatedString" handle="h43576a52g162cg4eaeg9f13gf3bd5693f594" version="2" /> Points to Localization xml file. Generate new handle with BG3 Modder's Multitool
+					<attribute id="DisplayName" type="TranslatedString" handle="hd22ef20eg2d8cg4ea0ga40fg7765b5b40d46" version="3" /> Points to Localization xml file. Generate new handle with BG3 Modder's Multitool
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Ring_F_Silver_A" /> Use the same icon as the ParentTemplate ring			
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="ef2de793-c53a-4144-82ce-36a88e7809e1" /> Same UUID as in Armor.txt. Generate new UUID
+					<attribute id="Name" type="LSString" value="CLVS_Ring4" /> Same as Stats
+					<attribute id="ParentTemplateId" type="FixedString" value="49b84359-6a28-460e-af98-4526c5fca6fd" /> Points to LOOT_GEN_Ring_F_Silver_A
+					<attribute id="Stats" type="FixedString" value="CLVS_Ring4" /> Stats for the Armor.txt
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>				
+				<node id="GameObjects"> Warlock ring
+					<attribute id="Description" type="TranslatedString" handle="h03646d87g89f8g4acbg88c6ge05dc97447e3" version="2" /> Points to Localization xml file. Generate new handle with BG3 Modder's Multitool
+					<attribute id="DisplayName" type="TranslatedString" handle="h4078a08aga45dg4403gbcf0gc8db04e01b01" version="3" /> Points to Localization xml file. Generate new handle with BG3 Modder's Multitool
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Ring_H_Silver_A" /> Use the same icon as the ParentTemplate ring	
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6a196c31-452f-4508-b251-e61c6537e0b0" /> Same UUID as in Armor.txt. Generate new UUID
+					<attribute id="Name" type="LSString" value="CLVS_Ring3" /> Same as Stats
+					<attribute id="ParentTemplateId" type="FixedString" value="5cbedb00-e900-439e-9035-50ab581fc5b9" /> Points to LOOT_GEN_Ring_H_Silver_A
+					<attribute id="Stats" type="FixedString" value="CLVS_Ring3" /> Stats for the Armor.txt
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>			
+				<node id="GameObjects"> Druid ring
+					<attribute id="Description" type="TranslatedString" handle="hb468c6b6g6271g4963g9580g4de0d3d98e1d" version="2" /> Points to Localization xml file. Generate new handle with BG3 Modder's Multitool
+					<attribute id="DisplayName" type="TranslatedString" handle="h008c8787g2209g4ac9ga980geb0cd00b47d3" version="3" /> Points to Localization xml file. Generate new handle with BG3 Modder's Multitool
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Ring_D_Silver_A" /> Use the same icon as the ParentTemplate ring	
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="b5c491a5-6c8e-468f-b963-71de4a1214ac" /> Same UUID as in Armor.txt. Generate new UUID
+					<attribute id="Name" type="LSString" value="CLVS_Ring2" /> Same as Stats
+					<attribute id="ParentTemplateId" type="FixedString" value="a9f741f6-a758-47ea-bb21-9a37d3ddfe42" /> Points to LOOT_GEN_Ring_D_Silver_A
+					<attribute id="Stats" type="FixedString" value="CLVS_Ring2" /> Stats for the Armor.txt
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects"> The One Ring
+					<attribute id="Description" type="TranslatedString" handle="h4266263cg6fa1g437fg84afg8e7d339031df" version="2" /> Points to Localization xml file. Generate new handle with BG3 Modder's Multitool
+					<attribute id="DisplayName" type="TranslatedString" handle="hbd6db74ag37feg4288g8a9egf2dbf5e5cb17" version="3" /> Points to Localization xml file. Generate new handle with BG3 Modder's Multitool
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Ring_A_Simple_Gold" /> Use the same icon as the ParentTemplate ring
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="7652a688-82fb-4ee7-9e9b-c54c996ff6aa" /> Same UUID as in Armor.txt. Generate new UUID
+					<attribute id="Name" type="LSString" value="CLVS_Ring1" /> Same as Stats
+					<attribute id="ParentTemplateId" type="FixedString" value="ecf4a8a4-7859-4a82-8c08-0c9526f29500" /> Points to LOOT_GEN_Ring_A_Simple_Gold
+					<attribute id="Stats" type="FixedString" value="CLVS_Ring1" /> Stats for the Armor.txt
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+					</children>
+				</node>				
+			</children>
+		</node>
+	</region>
+</save>

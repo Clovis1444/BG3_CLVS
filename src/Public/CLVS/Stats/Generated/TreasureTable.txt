@@ -1,0 +1,10 @@
+new treasuretable "HAG_AbandonedCamp_Backpack_Wizard"
+CanMerge 1
+new subtable "1,1"
+object category "I_CLVS_Ring1",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_CLVS_Ring2",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_CLVS_Ring3",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_CLVS_Ring4",1,0,0,0,0,0,0,0

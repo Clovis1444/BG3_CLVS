@@ -1,0 +1,3 @@
+new entry "CLVS_PETRIFIED"
+using "PETRIFIED"
+data "Boosts" "Resistance(Piercing,Immune);Resistance(Bludgeoning,Immune);Resistance(Slashing,Immune);Resistance(Acid,Immune);Resistance(Cold,Immune);Resistance(Fire,Immune);Resistance(Force,Immune);Resistance(Lightning,Immune);Resistance(Necrotic,Immune);Resistance(Poison,Immune);Resistance(Psychic,Immune);Resistance(Radiant,Immune);Resistance(Thunder,Immune);Attribute(Grounded);StatusImmunity(SG_Poisoned);Advantage(AttackTarget);AbilityFailedSavingThrow(Strength);AbilityFailedSavingThrow(Dexterity);DetectDisturbancesBlock(true);Tag(BLOCK_PICKPOCKET);Tag(DOWNED_DISABLED);StatusImmunity(DISARM)"
